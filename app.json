@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Manuais HP",
-    "slug": "manuais-hp",
+    "name": "TechGuide IA",
+    "slug": "techguide-ia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,10 +14,14 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0096ff"
       },
-      "package": "com.manuaishp.app",
-      "permissions": ["INTERNET"]
+      "package": "com.techguide.ia",
+      "permissions": [
+        "INTERNET"
+      ]
     },
-    "plugins": ["expo-font"],
+    "plugins": [
+      "expo-font"
+    ],
     "extra": {
       "eas": {
         "projectId": "your-project-id"
