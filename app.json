@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Manuais HP",
+    "slug": "manuais-hp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0d0f14"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0096ff"
+      },
+      "package": "com.manuaishp.app",
+      "permissions": ["INTERNET"]
+    },
+    "plugins": ["expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
